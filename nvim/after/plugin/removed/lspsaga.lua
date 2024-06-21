@@ -1,0 +1,31 @@
+-- local lspsaga = require('lspsaga')
+--
+-- lspsaga.setup({
+--   symbol_in_winbar = {
+--     enable = false,
+--   },
+--   -- To enable built-in diagnostics, remove this setting and uncomment diagnostics.lua
+--   lightbulb = {
+--     enable = false,
+--     enable_in_insert = true,
+--     sign = true,
+--     sign_priority = 40,
+--     virtual_text = true,
+--   },
+-- })
+--
+-- local keymap = vim.keymap.set
+--
+-- -- Rename all occurrences of the hovered word for the entire file
+-- keymap("n", "gr", "<cmd>Lspsaga rename<CR>")
+-- -- Go to definition
+-- keymap("n", "gd", "<cmd>Lspsaga goto_definition<CR>")
+-- -- Hover Doc
+-- -- If there is no hover doc,
+-- -- there will be a notification stating that
+-- -- there is no information available.
+-- -- To disable it just use ":Lspsaga hover_doc ++quiet"
+-- -- Pressing the key twice will enter the hover window
+-- keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>")
+-- -- Jump to next diagnostic error
+-- keymap("n", "<C-n>", "<cmd>Lspsaga diagnostic_jump_next<CR>")

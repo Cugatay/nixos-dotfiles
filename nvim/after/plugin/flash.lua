@@ -1,0 +1,30 @@
+-- require('flash').setup({
+--   highlight = {
+--     -- show a backdrop with hl FlashBackdrop
+--     backdrop = true,
+--     -- Highlight the search matches
+--     matches = true,
+--     -- extmark priority
+--     priority = 5000,
+--     groups = {
+--       match = "FlashMatch",
+--       current = "FlashCurrent",
+--       -- backdrop = "FlashBackdrop",
+--       backdrop = "FlashBackdrop",
+--       label = "FlashLabel",
+--     },
+--   },
+-- })
+--
+-- vim.keymap.set('n', 's', function()
+--   require("flash").jump({
+--     search = { forward = true, wrap = false, multi_window = false },
+--   })
+-- end, { noremap = true, silent = true })
+--
+-- vim.keymap.set('n', 'S', function()
+--   require("flash").jump({
+--     search = { forward = false, wrap = false, multi_window = false },
+--   })
+-- end, { noremap = true, silent = true })
+--

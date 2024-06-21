@@ -1,0 +1,18 @@
+mode=drun
+width=500
+allow_images=true
+prompt=Search App...
+hide_scroll=true
+no_actions=true # hides toggles
+# insensitive=false
+
+key_forward=Ctrl-j
+key_backward=Ctrl-k
+key_up=Ctrl-p
+key_down=Ctrl-n # you can use these instead of key_forward/backward for not letting it go down when there's nothing left on up
+
+# key_up=Ctrl-k # you can use these instead of key_forward/backward for not letting it go down when there's nothing left on up
+# key_down=Ctrl-j
+
+# width=30%
+# allow_markup=true

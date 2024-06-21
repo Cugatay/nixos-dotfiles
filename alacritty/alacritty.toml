@@ -1,0 +1,41 @@
+import = ["/Users/cagataykaydir/.config/alacritty/keybindings.toml"]
+
+[colors.primary]
+background = "#1e202e"
+
+[colors.search.focused_match]
+background = "#718fd1"
+foreground = "#000000"
+
+[colors.search.matches]
+background = "#ffffff"
+foreground = "#000000"
+
+[cursor.style]
+# blink_interval = 500
+blinking = "Always"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+# size = 12.0
+size = 10
+
+[font.bold]
+family = "MesloLGM Nerd Font Mono"
+
+[font.bold_italic]
+family = "MesloLGM Nerd Font Mono"
+
+[font.italic]
+family = "MesloLGM Nerd Font Mono"
+
+[font.normal]
+family = "MesloLGM Nerd Font Mono"
+
+# [shell]
+# program = "/run/current-system/sw/bin/tmux"
+
+[window]
+decorations = "none"

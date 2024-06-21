@@ -1,0 +1,9 @@
+TO UPDATE DOWNLOADED NIX PACKAGES:
+
+Fist, update the version of nixpkgs in the flake.nix file.
+
+Then run:
+```
+sudo nix flake update
+sudo nixos-rebuild switch --flake .
+```
